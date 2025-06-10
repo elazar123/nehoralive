@@ -461,24 +461,6 @@ nav {
     flex-wrap: wrap;
 }
 
-.btn-white {
-    background-color: rgba(255, 255, 255, 0.95);
-    color: #1A1A1A;
-    border: 2px solid rgba(255, 255, 255, 0.3);
-    backdrop-filter: blur(10px);
-    font-weight: 500;
-    transition: all 0.3s ease;
-    box-shadow: 0 4px 20px rgba(255, 255, 255, 0.1);
-}
-
-.btn-white:hover {
-    background-color: rgba(255, 255, 255, 1);
-    color: #000;
-    border-color: rgba(255, 255, 255, 0.8);
-    box-shadow: 0 6px 25px rgba(255, 255, 255, 0.2);
-    transform: translateY(-3px);
-}
-
 /* Camera Frame */
 .camera-frame {
     position: absolute;
@@ -2825,12 +2807,6 @@ input.error, textarea.error, select.error {
         flex-direction: column;
         gap: 15px;
         margin-top: 20px;
-    }
-    
-    .btn-white {
-        width: 100%;
-        padding: 14px 24px;
-        font-size: 0.95rem;
     }
     
     .camera-frame {
